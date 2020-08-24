@@ -1,0 +1,97 @@
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll.config
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.pdb
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.dll
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.dll
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.xml
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.xml
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csprojResolveAssemblyReference.cache
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.dll
+Z:\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.pdb
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll.config
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.pdb
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.dll
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.dll
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.xml
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.xml
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.dll
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.pdb
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csprojResolveAssemblyReference.cache
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.BasictabCreated.resources
+F:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csproj.GenerateResource.Cache
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll.config
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.pdb
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.dll
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.xml
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csprojResolveAssemblyReference.cache
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.BasictabCreated.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csproj.GenerateResource.Cache
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.dll
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.pdb
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Category.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Ecommcategorycreated.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Eccomsubcategory.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommBrand.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommItem.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommItemfeatures.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommItemfeatures1.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.ImageLEngthChanged.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Gallery.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.tabcreated.resources
+D:\training\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.bookingcreated.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll.config
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.pdb
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.dll
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.dll
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.xml
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.xml
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csprojAssemblyReference.cache
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.BasictabCreated.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Category.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Ecommcategorycreated.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Eccomsubcategory.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommBrand.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommItem.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommItemfeatures.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommItemfeatures1.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.ImageLEngthChanged.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Gallery.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.tabcreated.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.bookingcreated.resources
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csproj.GenerateResource.cache
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csproj.CoreCompileInputs.cache
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csproj.CopyComplete
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.dll
+K:\Arjun-WD\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.pdb
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll.config
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.dll
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\Ecommerce.Model.pdb
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.dll
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.xml
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.BasictabCreated.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Category.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Ecommcategorycreated.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Eccomsubcategory.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommBrand.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommItem.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommItemfeatures.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.EcommItemfeatures1.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.ImageLEngthChanged.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.Gallery.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.tabcreated.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.bookingcreated.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csproj.GenerateResource.cache
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.csproj.CopyComplete
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.dll
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.pdb
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.newlaunchtabcreated.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.newlaunchdatacreated.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.newlaunchdataruncreated.resources
+D:\AJ works\Project\Flipkart\Ecommerce.test\Ecommerce.Web\Ecommerce.Model\obj\Debug\Ecommerce.Model.Migrations.finaltabcreated.resources
