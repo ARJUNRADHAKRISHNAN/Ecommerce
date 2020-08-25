@@ -1,0 +1,112 @@
+﻿<div class="container mar-t5">
+    <div class="panel panel-default">
+        <div class="panel-heading">Item</div>
+        <div class="panel-body pad-2">
+            <ul class="nav nav-tabs">
+                <li ng-class="{active: ViewVal == 0}"><a href="" ng-click="ViewVal = 0">Details</a></li>
+                <li  ng-show="Item.Id > 0" ng-class="{active: ViewVal == 1}"><a href="" ng-click="ViewVal = 1">Features </a></li>
+            </ul>
+            <br />
+            <br />
+
+            <div div ng-show="ViewVal == 0" class="row">
+                <div class="col-md-8">
+                    <label>Name</label>
+                    <input type="text" class="form-control" ng-model="Item.Name" />
+                    <div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label>Image</label>
+                                <div class="photoDiv row">
+                                    <div class="col-xs-5">
+                                        <img ng-if="Item.Image == ''" src="images/img.png" class="w-50">
+                                        <img ng-if="Item.Image != ''" src="{{basePath}}{{Item.Image}} " class="w-50 ">
+                                    </div>
+                                    <div class="col-xs-7">
+                                        <input type="file" id="fileInput" custom-on-change="handleFileSelect" />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+
+                                <label>Price</label>
+                                <input type="text" class="form-control" ng-model="Item.Price" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <label>Brand {{Item.BrandId}}</label>
+                            <select class="form-control" ng-options="t.Id as t.Name for t in Brands" ng-model="Item.BrandId"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Category {{Item.CategoryId}}</label>
+                            <select class="form-control" ng-options="t.Id as t.Name for t in Categories" ng-model="Item.CategoryId"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Subcategory {{Item.SubcategoryId}}</label>
+                            <select class="form-control" ng-options="t.Id as t.Name for t in Subcategories" ng-model="Item.SubcategoryId"></select>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <br />
+                    <button class="btn btn-default" ng-click="AddItem()">Add Item</button>
+                </div>
+            </div>
+            <div ng-if="ViewVal == 1" class="row">
+                <div class="row">
+                    <div class="col-md-6">
+                        <table class="table table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>Description </td>
+                                    <td>
+                                        <textarea class="form-control" ng-model="Feature.Description"> </textarea>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td></td>
+                                    <td class="text-right">
+                                        <button class="btn btn-primary" ng-click="AddFeatures()"> Add Features</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="col-md-6">
+                        <table class="table table-striped">
+                            <thead>
+                            <th> Description </th>
+                            </thead>
+                            <tbody>
+                                <tr ng-repeat="i in Features">
+                                    <td>
+                                        <p>{{$index+1}}</p>
+                                    </td>
+                                    <td>
+                                        <p>{{i.Description}}</p>
+                                    </td>
+
+                                    <td>
+                                        <button class="btn btn-primary" ng-click="DeleteFeatures(i)"> Delete </button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="">
+            <p>{{ErrorText}}</p>
+        </div>
+        <div kendo-grid="ItemSource" k-options="ItemGridOptions" id="Item-master-grid"></div>
+
+    </div>
+</div>
+

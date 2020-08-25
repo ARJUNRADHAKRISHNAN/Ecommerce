@@ -1,0 +1,70 @@
+﻿
+
+    <div class="container containercus">
+        <br />
+        <br />
+        <div class="row">
+            <div class="col-md-3">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <h3>Filter Products</h3>
+                        <hr />
+                        <p><b>Categories</b></p>
+                        <div ng-repeat="c in Categories">
+                            <input type="checkbox" ng-model="c.IsSelected"/> {{c.Name}}
+                        </div>
+                        <hr />
+                        <p><b>Brands</b></p>
+                        <div ng-repeat="B in Brands">
+                            <input type="checkbox" ng-model="B.IsSelected"/> {{B.Name}}
+                        </div>
+                        <div data-role="page">
+                            <div data-role="header">
+                                <h3>Price</h3>
+                            </div>
+
+                            <div data-role="main" class="ui-content">
+                                <form>
+                                    <div data-role="rangeslider">
+                                        <label> Min:</label>
+                                        <input type="number" name="Minval" ng-model="Filter.Minval" />
+                                        <br/>
+                                        <label> Max:</label>
+                                        <input type="number" name="Maxval" ng-model="Filter.Maxval" />
+                                    </div>
+                                    <button class="btn-btn-default" ng-click="Filterclick()">Apply</button>
+
+                                </form>
+                            </div>
+                        </div>
+            </div>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        <div class="row">
+
+                            <div class="row text-center">
+                                <div class="col-md-3" ng-repeat="C in Items">
+
+                                    <img src="{{basePath}}{{C.Image}}" height="150" width="150" />
+                                    <p><a><b>Name : {{C.Name}}</b></a></p>
+                                    <p> Price : {{C.Price}}</p>
+                                    <p> Subcategory : {{C.Subcategory.Name}}</p>
+                                    <p> Category : {{C.Category.Name}}</p>
+                                    <p>Brand : {{C.Brand.Name}}</p>
+
+
+                                    <br />
+                                    <br />
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>

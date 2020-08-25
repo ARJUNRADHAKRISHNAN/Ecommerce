@@ -1,0 +1,54 @@
+﻿    <div class="container mar-t5">
+        <div class="panel panel-default">
+            <div class="panel-heading">Gallery</div>
+            <div class="panel-body">
+
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <label>Name</label>
+                    <input type="text" class="form-control" ng-model="Gallery.Name" />
+                </div>
+
+                <div class="col-md-4">
+                    <label>Img1</label>
+                    <div class="photoDiv row">
+                        <div class="col-xs-5">
+                            <img ng-if="Gallery.Img1 == ''" src="images/img.png" class="w-50">
+                            <img ng-if="Gallery.Img1 != ''" src="{{basePath}}{{Gallery.Img1}} " class="w-50 ">
+                        </div>
+                        <div class="col-xs-7">
+                            <input type="file" id="fileInput" custom-on-change="handleFileSelect" />
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <label>Img2</label>
+                    <div class="photoDiv row">
+                        <div class="col-xs-5">
+                            <img ng-if="Gallery.Img2 == ''" src="images/img.png" class="w-50">
+                            <img ng-if="Gallery.Img2 != ''" src="{{basePath}}{{Gallery.Img2}} " class="w-50 ">
+                        </div>
+                        <div class="col-xs-7">
+                            <input type="file" id="fileInput" custom-on-change="handleFileSelect" />
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-2">
+                    <br />
+                    <button class="btn btn-default" ng-click="AddGallery()">Add Gallery</button>
+                </div>
+            </div>
+
+            <div class="">
+                <p>{{ErrorText}}</p>
+            </div>
+            <div kendo-grid="GallerySource" k-options="GalleryGridOptions" id="Gallery-master-grid"></div>
+
+        </div>
+    </div>
+

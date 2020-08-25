@@ -1,0 +1,43 @@
+﻿<div class="container mar-t5">
+    <div class="panel panel-default">
+        <div class="panel-heading">Subcategory</div>
+        <div class="panel-body">
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <label>Name</label>
+                    <input type="text" class="form-control" ng-model="Subcategory.Name" />
+                </div>
+                <div class="col-md-4">
+                    <label>Image</label>
+                    <div class="photoDiv row">
+                        <div class="col-xs-5">
+                            <img ng-if="Subcategory.Image == ''" src="images/img.png" class="w-50">
+                            <img ng-if="Subcategory.Image != ''" src="{{basePath}}{{Subcategory.Image}} " class="w-50 ">
+                        </div>
+                        <div class="col-xs-7">
+                            <input type="file" id="fileInput" custom-on-change="handleFileSelect" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <label>Category {{Subcategory.CategoryId}}</label>
+                    <select class="form-control" ng-options="t.Id as t.Name for t in Categories" ng-model="Subcategory.CategoryId"></select>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <br />
+                <button class="btn btn-default" ng-click="AddSubcategory()">Add Subcategory</button>
+            </div>
+        </div>
+
+        <div class="">
+            <p>{{ErrorText}}</p>
+        </div>
+
+
+                <div kendo-grid="SubcategorySource" k-options="SubcategoryGridOptions" id="Subcategory-master-grid"></div>
+</div>
+</div>

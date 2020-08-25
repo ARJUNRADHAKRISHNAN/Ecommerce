@@ -1,0 +1,62 @@
+﻿<div class="container mar-t5">
+    <div class="panel panel-default">
+        <div class="panel-heading">Booking</div>
+        <div class="panel-body ">
+                <div class="row">
+                        <table class="table table-striped">
+                            <tbody>
+
+                                <tr>
+                                    <td>Date </td>
+                                    <td>
+                                        <input type="date" class="form-control" ng-model="Booking.Date" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Name </td>
+                                    <td>
+                                        <input type="text" class="form-control" ng-model="Booking.Name" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>MobileNo </td>
+                                    <td>
+                                        <input type="text" class="form-control" ng-model="Booking.MobileNo" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>EmailId </td>
+                                    <td>
+                                        <input type="text" class="form-control" ng-model="Booking.EmailId" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>Address </td>
+                                    <td>
+                                        <input type="text" class="form-control" ng-model="Booking.Address" />
+                                    </td>
+                                </tr>                              
+                                
+                                <tr>
+                                    <td>Remarks </td>
+                                    <td>
+                                        <textarea class="form-control" ng-model="Booking.Remarks"> </textarea>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                    <td class="text-right">
+                                        <button class="btn btn-primary" ng-click="AddBooking()"> Add Booking</button>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>            
+                </div>          
+
+        </div>
+
+        <div class="">
+            <p>{{ErrorText}}</p>
+        </div>
+        </div>
+</div>

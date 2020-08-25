@@ -1,0 +1,37 @@
+﻿<div class="container mar-t5">
+    <div class="panel panel-default">
+        <div class="panel-heading">Brand</div>
+        <div class="panel-body ">           
+        <div  class="row">
+            <div class="col-md-6">
+                <label>Name</label>
+                <input type="text" class="form-control" ng-model="Brand.Name" />
+            </div>
+
+            <div class="col-md-4">
+                <label>Image</label>
+                <div class="photoDiv row">
+                    <div class="col-xs-5">
+                        <img ng-if="Brand.Image == ''" src="images/img.png" class="w-50">
+                        <img ng-if="Brand.Image != ''" src="{{basePath}}{{Brand.Image}} " class="w-50 ">
+                    </div>
+                    <div class="col-xs-7">
+                        <input type="file" id="fileInput" custom-on-change="handleFileSelect" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-2">
+                <br />
+                <button class="btn btn-default" ng-click="AddBrand()">Add Brand</button>
+            </div>
+        </div>
+    </div>
+
+            <div class="">
+                <p>{{ErrorText}}</p>
+            </div>
+        <div kendo-grid="BrandSource" k-options="BrandGridOptions" id="Brand-master-grid"></div>
+
+        </div>
+    </div>

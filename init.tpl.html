@@ -1,0 +1,866 @@
+﻿<script type="text/javascript">
+    $(document).ready(function () {
+        window.scrollTo(0, 0);
+    });
+</script>
+
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href=""  ui-sref="home"> <img src="images/logo.png" alt="logo"> </a>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+            <form class="navbar-form navbar-left">
+                <div class="input-group searchbox">
+                    <input type="text" class="form-control searchinp" placeholder="Search for products, brands and more" ng-model="Searchbar.Keyword">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default searchbtn" type="submit" ng-click="dosearch(Searchbar)"><i class="glyphicon glyphicon-search"></i></button>
+                    </span>
+                </div>
+            </form>
+
+
+       
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="" ui-sref="login">Login & Signup</a></li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">More <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Notification Preferences</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Sell on Flipkart</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">24*7 Customer Care</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Download App</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href=""> <i class="glyphicon glyphicon-shopping-cart"></i> Cart</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+</nav>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <div class="navbar-collapse js-navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <b> Electronics </b> <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu mega-dropdown-menu blk-txt">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p><a><b>Mobiles</b></a></p>
+
+                                <p><a>Mi</a></p>
+                                <p><a>Redmi</a></p>
+                                <p><a>Infinix</a></p>
+                                <p><a>OPPO</a></p>
+                                <p><a>Apple</a></p>
+                                <p><a>Vivo</a></p>
+                                <p><a>Honor</a></p>
+                                <p><a>Honor</a></p>
+                                <p><a>Pixel 3a | 3a XL</a></p>
+                                <p><a>Redmi K20 | K20 Pro</a></p>
+                                <p><a>Realme X</a></p>
+                                <p><a>Redmi 7A</a></p>
+                                <p><a>Vivo Z1Pro</a></p>
+                                <p><a>Realme 3i</a></p>
+                                <p><a>Realme 3i</a></p>
+                                <p><a>Red Magic 3</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b> Mobile Accessories </b></a></p>
+
+                                <p><a>Mobile Cases</a></p>
+                                <p><a>Headphones & Headsets</a></p>
+                                <p><a>Power Banks</a></p>
+                                <p><a>Screenguards</a></p>
+                                <p><a>Memory Cards</a></p>
+                                <p><a>Smart Headphones</a></p>
+                                <p><a>Mobile Cables</a></p>
+                                <p><a>Mobile Chargers</a></p>
+                                <p><a>Mobile Holders</a></p>
+
+                                <p><a><b>Smart Wearable Tech</b></a></p>
+                                <p><a>Smart Watches</a></p>
+                                <p><a>Smart Glasses (VR)</a></p>
+                                <p><a>Smart Bands</a></p>
+
+
+                                <p><a><b>Health Care Appliances</b></a></p>
+                                <p><a>Bp Monitors</a></p>
+                                <p><a>Weighing Scale</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b> Laptops </b></a></p>
+                                <p><a>Gaming Laptops</a></p>
+                                <p><a><b> Desktop PCs </b></a></p>
+                                <p><a><b> Gaming & Accessories</b></a></p>
+                                <p><a><b> Computer Accessories</b></a></p>
+                                <p><a>External Hard Disks</a></p>
+                                <p><a>Pendrives</a></p>
+                                <p><a>Laptop Skins & Decals</a></p>
+                                <p><a>Laptop Bags</a></p>
+                                <p><a>Mouse</a></p>
+                                <p><a><b>Computer Peripherals </b></a></p>
+                                <p><a>Printers & Ink Cartridges</a></p>
+                                <p><a>Monitors</a></p>
+                                <p><a><b> Tablets </b></a></p>
+                                <p><a>Apple iPads</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a>Televisions</a></p>
+                                <p><a><b>Speakers</b></a></p>
+                                <p><a>Home Audio Speakers</a></p>
+                                <p><a>Home Theatres</a></p>
+                                <p><a>Soundbars</a></p>
+                                <p><a>Bluetooth Speakers</a></p>
+                                <p><a>DTH Set Top Box</a></p>
+
+                                <p><a><b>Smart Home Automation</b></a></p>
+                                <p><a>Google Home</a></p>
+                                <p><a><b>Camera</b></a></p>
+                                <p><a>DSLR & Mirrorless</a></p>
+                                <p><a>Compact & Bridge Cameras</a></p>
+                                <p><a>Sports & Action</a></p>
+                                <p><a><b>Camera Accessories</b></a></p>
+                                <p><a>Lens</a></p>
+                                <p><a><b>Tripods</b></a></p>
+                                <p><a><b>Network Components</b></a></p>
+                                <p><a>Routers</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Featured</b></a></p>
+                                <p><a>Laptops on Buyback Guarantee</a></p>
+                                <p><a>Flipkart SmartBuy</a></p>
+                                <p><a>Li-Polymer Power Banks</a></p>
+                                <p><a>Sony PS4 Pro & Slim</a></p>
+                                <p><a>Apple Products</a></p>
+                                <p><a>Microsoft Store</a></p>
+                                <p><a>Lenovo Phab Series</a></p>
+                                <p><a>JBL Speakers</a></p>
+                                <p><a>Smartphones On Buyback Guarantee</a></p>
+                                <p><a>Philips</a></p>
+                                <p><a>Dr. Morepen</a></p>
+                                <p><a>Complete Mobile Protection</a></p>
+                                <p><a>Mobiles No Cost EMI</a></p>
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <b>
+                            TV &amp; Appliances
+                        </b><span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu mega-dropdown-menu blk-txt">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p><a><b>Television</b></a></p>
+                                <p><a> <b> Android TVs </b></a></p>
+                                <p><a><b> Smart & Ultra HD </b></a></p>
+                                <p><a> <b> Top Brands </b></a></p>
+                                <p><a> Mi </a></p>
+                                <p><a> Vu </a></p>
+                                <p><a> Thomson </a></p>
+                                <p><a> Samsung </a></p>
+                                <p><a> iFFALCON by TCL </a></p>
+                                <p><a> MarQ by Flipkart </a></p>
+                                <p><a> LG </a></p>
+                                <p><a> Micromax </a></p>
+                                <p><a>Kodak </a></p>
+                                <p><a> <b> Shop by Screen Size </b></a></p>
+                                <p><a> 24 & below </a></p>
+                                <p><a> 28 - 32 </a></p>
+                                <p><a> 39 - 43 </a></p>
+                                <p><a> 48 - 55 </a></p>
+                                <p><a> 60 & above </a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b> Washing Machine </b></a></p>
+                                <p><a> Fully Automatic Front Load </a></p>
+                                <p><a> Semi Automatic Top Load </a></p>
+                                <p><a> Fully Automatic Top Load </a></p>
+                                <p><a><b> Air Conditioners </b></a></p>
+                                <p><a> Inverter AC </a></p>
+                                <p><a> Split ACs </a></p>
+                                <p><a> Window ACs </a></p>
+                                <p><a><b> Shop By Brand </b></a></p>
+                                <p><a> LG </a></p>
+                                <p><a> Hitachi </a></p>
+                                <p><a> Carrier </a></p>
+                                <p><a><b> Refrigerators </b></a></p>
+                                <p><a> Single Door </a></p>
+                                <p><a> Double Door </a></p>
+                                <p><a> Triple door </a></p>
+                                <p><a> Side by Side </a></p>
+                                <p><a> Side by Side </a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a> <b> Kitchen Appliances </b></a></p>
+                                <p><a> Microwave Ovens </a></p>
+                                <p><a> Oven Toaster Grills (OTG) </a></p>
+                                <p><a> Juicer/Mixer/Grinder </a></p>
+                                <p><a> Electric Kettle </a></p>
+                                <p><a> Induction Cooktops </a></p>
+                                <p><a> Chimneys </a></p>
+                                <p><a> Hand Blenders </a></p>
+                                <p><a> Sandwich Makers </a></p>
+                                <p><a> Pop Up Toasters </a></p>
+                                <p><a> Electric Cookers </a></p>
+                                <p><a> Wet Grinders </a></p>
+                                <p><a> Food Processors </a></p>
+                                <p><a> Coffee Makers </a></p>
+                                <p><a> Dishwashers</a></p>
+                                <p><a> <b> Healthy Living Appliances </b></a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a> <b> Small Home Appliances </b></a></p>
+                                <p><a> Irons </a>
+                                <p><a> Water Purifiers </a>
+                                <p><a> Fans </a>
+                                <p><a> Air Coolers</a>
+                                <p><a> Inverters</a>
+                                <p><a> Vacuum Cleaners</a>
+                                <p><a> Sewing Machines</a>
+                                <p><a> Voltage Stabilizers </a>
+                                <p><a> Water Geysers</a>
+                                <p><a> Immersion Rods </a>
+                                <p><a> <b> Top Brands </b></a></p>
+                                <p><a> Livpure</a>
+                                <p><a> Philips</a>
+                                <p><a> Bajaj</a>
+                                <p><a> IFB</a>
+                                <p><a> Eureka Forbes</a>
+                                <p><a> Kaff</a>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a> <b> Buying Guides </b></a></p>
+                                <p>
+                                    <a>Televisions</a>
+                                </p>
+                                <p>
+                                    <a>Washing Machines</a>
+                                </p>
+                                <p>
+                                    <a>Refrigerators</a>
+                                </p>
+                                <p>
+                                    <a>Air Conditioners</a>
+                                </p>
+                                <p>
+                                    <a>Water Purifiers</a>
+                                </p>
+                                <p>
+                                    <a>Air Purifiers</a>
+                                </p>
+                                <p>
+                                    <a>Chimneys</a>
+                                </p>
+                                <p>
+                                    <a>Water Geysers</a>
+                                </p>
+                                <p><a> <b> New Launches </b></a></p>
+                                <p>
+                                    <a>Vu Premium Android TVs</a>
+                                </p>
+                                <p>
+                                    <a>Samsung UHD TVs</a>
+                                </p>
+                                <p>
+                                    <a>Mi (32) 4A Pro Android TV</a>
+                                </p>
+                                <p>
+                                    <a>MarQ (43) FHD Smart TV</a>
+                                </p>
+                                <p>
+                                    <a>LG Refrigerators</a>
+                                </p>
+                                <p>
+                                    <a>Thomson (40) 4K Smart TV</a>
+                                </p>
+                                <p>
+                                    <a>Whirlpool Refrigerators</a>
+                                </p>
+                                <p>
+                                    <a>Kodak (22) | (32) LED TVs</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </ul>
+                </li>
+                <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <b> Men </b><span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu mega-dropdown-menu blk-txt">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p><a><b>FootWear</b></a></p>
+                                <p><a>Sports Shoes</a></p>
+                                <p><a>Casual Shoes</a></p>
+                                <p><a>Formal Shoes</a></p>
+                                <p><a>Sandals & Floaters</a></p>
+                                <p><a>Loafers</a></p>
+                                <p><a>Boots</a></p>
+                                <p><a>Running Shoes/a></p>
+                                <p><a>Sneakers</a></p>
+
+
+                                <p><a><b>Mens Accessories</b></a></p>
+                                <p><a>Shaving & Afterset</a></p>
+                                <p><a>Deodorants</a></p>
+                                <p><a>Perfumes</a></p>
+                                <p><a>Beared Groom & Care</a></p>
+                                <p><a>Sexual Wellness</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Clothing</b></a></p>
+                                <p><a><b>Top Wear</b></a></p>
+                                <p><a>Tshirts</a></p>
+                                <p><a>Shirts</a></p>
+                                <p><a>Kurtas</a></p>
+                                <p><a>Suits & Blaizers</a></p>
+                                <p><a>Baniyan</a></p>
+
+                                <p><a><b>Bottom Wear</b></a></p>
+                                <p><a>Jeans</a></p>
+                                <p><a>Trousers</a></p>
+                                <p><a>Shorts & 3/4 th</a></p>
+                                <p><a>Cargos</a></p>
+                                <p><a>Trackpants</a></p>
+                                <p><a>joggers</a></p>
+                                <p><a>Tracksuits</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Seasonal Wears</b></a></p>
+                                <p><a>Sweaters</a></p>
+                                <p><a>Jackets</a></p>
+                                <p><a>Sweat Shirts</a></p>
+                                <p><a>Thermals</a></p>
+                                <p><a>Raincoats</a></p>
+
+                                <p><a><b>Sports Wear</b></a></p>
+                                <p><a>Sports T-shirt</a></p>
+                                <p><a>Track Pants</a></p>
+                                <p><a>Track Suits</a></p>
+                                <p><a>Shorts</a></p>
+
+
+
+                                <p><a><b>Inner Wear & Sleep Wear</b></a></p>
+                                <p><a>Briefs & Trunks</a></p>
+                                <p><a>Vests</a></p>
+                                <p><a>Boxers</a></p>
+                                <p><a>Thermals</a></p>
+
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Watches</b></a></p>
+                                <p><a>Fastrack</a></p>
+                                <p><a>Casio</a></p>
+                                <p><a>Titan</a></p>
+                                <p><a>Fossil</a></p>
+                                <p><a>Sonata</a></p>
+                                <p><a>Quartz</a></p>
+
+                                <p><a><b>Accessories</b></a></p>
+                                <p><a>Backpacks</a></p>
+                                <p><a>Wallets</a></p>
+                                <p><a>Belts</a></p>
+                                <p><a>Sunglass</a></p>
+                                <p><a>Luggagae & Travel</a></p>
+                                <p><a>Frames</a></p>
+                                <p><a>Jewellery</a></p>
+                                <p><a>Bands</a></p>
+
+
+
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Smart Watches</b></a></p>
+                                <p><a><b>Smart Bands</b></a></p>
+                                <p><a>Trimmers</a></p>
+                                <p><a>Shavers</a></p>
+                                <p><a>Grooming Kits</a></p>
+
+                                <p><a><b>Featured</b></a></p>
+                                <p><a>Watches</a></p>
+                                <p><a>Footwear Club</a></p>
+                                <p><a>Bags & Wallets</a></p>
+                                <p><a>Tshirt Store</a></p>
+                                <p><a>Addidas</a></p>
+                                <p><a>Beardo</a></p>
+                                <p><a>Reebok</a></p>
+                                <p><a>Sketchers</a></p>
+                                <p><a>Nike</a></p>
+
+
+
+
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <b> Women</b> <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu mega-dropdown-menu blk-txt">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p><a><b>Clothing</b></a></p>
+                                <p><a><b>Western wearing</b></a></p>
+                                <p><a>Tops,Tshirts & Shirts</a></p>
+                                <p><a>Dresses</a></p>
+                                <p><a>Grooming Kits</a></p>
+                                <p><a>Dresses</a></p>
+                                <p><a>Jeans</a></p>
+                                <p><a>Shorts</a></p>
+                                <p><a>Skirts</a></p>
+                                <p><a>Leggings & Jeggings</a></p>
+                                <p><a>Trousers & Capris</a></p>
+                                <p><a>Lingeries</a></p>
+                                <p><a>Bras</a></p>
+                                <p><a>Panties</a></p>
+                                <p><a>Lingerie Set</a></p>
+                                <p><a>Night Suites</a></p>
+                                <p><a>Shape wear</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Ethnic wear</b></a></p>
+                                <p><a>Sarees</a></p>
+                                <p><a>Kurtas & Kurtis</a></p>
+                                <p><a>Dress Material</a></p>
+                                <p><a>Lahenga Choli</a></p>
+                                <p><a>Blous</a></p>
+                                <p><a>Ethnic Bottoms</a></p>
+                                <p><a>Anarkali Suits</a></p>
+                                <p><a>Petticoats</a></p>
+                                <p><a>Abhayas & Barquas</a></p>
+                                <p><a>Duppattas</a></p>
+                                <p><a><b>Sports wear</b></a></p>
+                                <p><a><b>International wear</b></a></p>
+                                <p><a><b>New Arrivals</b></a></p>
+                                <p><a><b>Under 499</b></a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Footwear</b></a></p>
+                                <p><a><b>Sandals</b></a></p>
+                                <p><a>Flats</a></p>
+                                <p><a>Heels</a></p>
+                                <p><a>Wedges</a></p>
+
+
+
+                                <p><a><b>Shoes</b></a></p>
+                                <p><a>Sports Shoes</a></p>
+                                <p><a>Casual Shoes</a></p>
+                                <p><a>Boots</a></p>
+                                <p><a><b>Bellaniras</b></a></p>
+                                <p><a><b>Slippers & Flip-Flops</b></a></p>
+                                <p><a><b>Watches</b></a></p>
+                                <p><a><b>Smart Watches</b></a></p>
+
+                                <p><a><b>Personal Care Appliances</b></a></p>
+                                <p><a>Hair Straightner</a></p>
+                                <p><a>Hair Dryers</a></p>
+                                <p><a>Epilators</a></p>
+
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Beauty & Grooming</b></a></p>
+                                <p><a>Makeup</a></p>
+                                <p><a>Skin Care</a></p>
+                                <p><a>Hair Care</a></p>
+                                <p><a>Bath & Spa</a></p>
+                                <p><a>Deodorants & Perfumes</a></p>
+
+
+                                <p><a><b>Jewellery</b></a></p>
+                                <p><a>Precious Jewellery</a></p>
+                                <p><a>Artificial Jewellery</a></p>
+                                <p><a>Silver Jewellery</a></p>
+
+
+                                <p><a><b>Accessories</b></a></p>
+                                <p><a>Smart Bands</a></p>
+                                <p><a>Handbags </a></p>
+                                <p><a>Shoulder Bags</a></p>
+                                <p><a>Totes </a></p>
+                                <p><a>Sling Bags </a></p>
+                                <p><a>Clutches </a></p>
+                                <p><a>Wallets & Belts </a></p>
+                                <p><a>Luggage & Travel </a></p>
+                                <p><a>Sunglasses </a></p>
+                                <p><a>Frames </a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Featured</b></a></p>
+                                <p><a>Forever 21</a></p>
+                                <p><a>Accessorize </a></p>
+                                <p><a>W</a></p>
+                                <p><a>Pantaloons</a></p>
+                                <p><a>Chemistry</a></p>
+                                <p><a>Lakme</a></p>
+                                <p><a>Nivea</a></p>
+                                <p><a>Catwalk</a></p>
+                                <p><a>Titan-Ranga</a></p>
+                                <p><a>Fastrack</a></p>
+                                <p><a>Divastri</a></p>
+                                <p><a>Anmi </a></p>
+                                <p><a>Coins & Bars</a></p>
+                                <p><a>Crocs</a></p>
+
+                                <p><a><b>Trending Today</b></a></p>
+                                <p><a>Rifles & Frills</a></p>
+                                <p><a>Pastal Kurtas & Kurtis</a></p>
+                                <p><a>Designer Net Sarees </a></p>
+
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <b> Baby &amp; Kids </b> <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu mega-dropdown-menu blk-txt">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p><a><b>Kids Clothing</b></a></p>
+                                <p><a><b>Boys Clothing</b></a></p>
+                                <p><a>Polos & T-shirts </a></p>
+                                <p><a>Ethnic Wear</a></p>
+                                <p><a>Shorts & 3/4 th</a></p>
+                                <p><a><b>Girls Clothing</b></a></p>
+                                <p><a>Dresses & Skirts</a></p>
+                                <p><a>Ethnic Wear</a></p>
+                                <p><a>Tshirts & Tops</a></p>
+                                <p><a><b>Baby Boy-Clothing</b></a></p>
+                                <p><a>Body Suits</a></p>
+                                <p><a>Polos & T-shirts</a></p>
+                                <p><a><b>Baby Girl-Clothing</b></a></p>
+                                <p><a>Body Suites</a></p>
+                                <p><a>Dresses</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Kids Footwear</b></a></p>
+                                <p><a><b>Boys Footwear</b></a></p>
+                                <p><a>Sandals </a></p>
+                                <p><a>Sports Shoes</a></p>
+
+                                <p><a><b>Girls Footwear</b></a></p>
+                                <p><a>Flats & Bellies</a></p>
+                                <p><a>Sports Shoes</a></p>
+
+                                <p><a><b>Baby Footwear</b></a></p>
+                                <p><a><b>Kids Winter Wear</b></p>
+                                <p><a>Boys Winter Wear</a></p>
+                                <p><a><b>Girls Winter Wear</b></a></p>
+                                <p><a>Infants Winter Wear</p>
+                                <p><a>Thermals</a></p>
+                                <p><a>Kids Watches</a></p>
+                                <p><a>Kids Sunglasses</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Toys</b></a></p>
+                                <p><a>Remote Control Toys</a></p>
+                                <p><a>Educational Toys </a></p>
+                                <p><a>Soft Toys</a></p>
+                                <p><a>Cars & Diecast Vehicles</a></p>
+                                <p><a>Outdoor Toys</a></p>
+                                <p><a>Action Figures</a></p>
+                                <p><a>Board Games</a></p>
+                                <p><a>Musical Toys</a></p>
+                                <p><a>Dolls & Doll Houses</a></p>
+                                <p><a>Puzzles</a></p>
+                                <p><a>S.T.E.M Toys</a></p>
+                                <p><a>Helicopters & Drones </a></p>
+                                <p><a>Toy Guns</a></p>
+                                <p><a>Party Supplies</a></p>
+
+                                <p><a><b>School Supplies</b></a></p>
+                                <p><a>School Bags</a></p>
+                                <p><a>School Combo Sets</a></p>
+                                <p><a>Lunch Box</a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <p><a><b>Baby Care</b></a></p>
+                                <p><a>Diapers</a></p>
+                                <p><a>Wipes </a></p>
+                                <p><a>Diapering & Potty Training</a></p>
+                                <p><a>Baby Bath,Hair & Skin Care</a></p>
+                                <p><a>Baby Grooming</a></p>
+                                <p><a>Baby Bathing Accessories</a></p>
+                                <p><a>Baby Gift Sets & Combo</a></p>
+                                <p><a>Baby Oral Care</a></p>
+                                <p><a>Nursing & Breast Feeding</a></p>
+                                <p><a>Baby Food</a></p>
+                                <p><a>Baby Feeding Bottles & Accessories</a></p>
+                                <p><a>Baby Feeding Utensils & Accessories </a></p>
+                                <p><a>Baby Beeding </a></p>
+                                <p><a>Baby Gear</a></p>
+                                <p><a>Baby Medical & Health Care</a></p>
+                                <p><a>Baby Proofing & Safety </a></p>
+                                <p><a>Baby Cleaners & Detergents </a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b>Featured Brands</b></a></p>
+                                <p><a>Miss & Chief</a></p>
+                                <p><a>Barbie </a></p>
+                                <p><a>Disney</a></p>
+                                <p><a>United Colors Of Benetton</a></p>
+                                <p><a>The Childrens Place</a></p>
+                                <p><a>US Polo</a></p>
+                                <p><a>Flying Machine</a></p>
+                                <p><a>Crocks</a></p>
+                                <p><a>Puma</a></p>
+                                <p><a>Funskool</a></p>
+                                <p><a>Lego</a></p>
+                                <p><a>Luvlap</a></p>
+                                <p><a>Mamy Poko</a></p>
+                                <p><a>Mee Mee</a></p>
+
+                            </div>
+                        </div>
+                    </ul>
+                </li>
+                <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <b>Home & Furniture </b><span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu mega-dropdown-menu blk-txt">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p><a><b>Kitchen, Cookware & Serveware</b></a></p>
+                                <p><a> Pans </a></p>
+                                <p><a> Tawas </a></p>
+                                <p><a> Pressure Cookers </a></p>
+                                <p><a> Kitchen tools </a></p>
+                                <p><a> Gas Stoves </a></p>
+                                <p><a><b>Tableware & Dinnerware</b></a></p>
+                                <p><a> Tawas </a></p>
+                                <p><a> Tawas </a></p>
+                                <p><a> Tawas </a></p>
+                                <p><a><b>Kitchen Storage</b></a></p>
+                                <p><a> Water Bottles </a></p>
+                                <p><a> Lunch Boxes </a></p>
+                                <p><a> Flasks </a></p>
+                                <p><a> Casseroles </a></p>
+                                <p><a> Kitchen Containers </a></p>
+                                <p><a><b>Cleaning Supplies</b></a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b> Furniture </b></a></p>
+                                <p><a> Kids Furniture </a></p>
+                                <p><a> Beds </a></p>
+                                <p><a> Sofas </a></p>
+                                <p><a> Dining tables & Sets </a></p>
+                                <p><a> Mattresses </a></p>
+                                <p><a> Tables </a></p>
+                                <p><a> Office Chairs </a></p>
+                                <p><a> Chairs </a></p>
+                                <p><a> Bean Bags </a></p>
+                                <p><a> Shoe Racks </a></p>
+                                <p><a> TV Units & Cabinets </a></p>
+                                <p><a> Wardrobes </a></p>
+                                <p><a> Drawers </a></p>
+                                <p><a> Sofa Beds </a></p>
+
+                                <p><a><b> Offers on Furniture</b></a></p>
+                                <p><a><b> Furniture Top Offers </b></a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <p><a><b> Furnishing </b></a></p>
+                                <p><a> Bedsheets </a></p>
+                                <p><a> Curtains </a></p>
+                                <p><a> Cushions & Pillows </a></p>
+                                <p><a>Blankets </a></p>
+                                <p><a> Bath Towels </a></p>
+                                <p><a> Kitchen & Table Linen </a></p>
+
+                                <p><a> Floor Coverings </a></p>
+
+                                <p><a><b>Smart Home Automation</b></a></p>
+                                <p><a> Smart Security System </a></p>
+                                <p><a> Smart Door Locks </a></p>
+                                <p><a><b>Home Improvement</b></a></p>
+                                <p><a> Tools & Measuring Equipments </a></p>
+                                <p><a> Home Utilities & Organizers </a></p>
+                                <p><a> Lawn & Gardening </a></p>
+                                <p><a>Bathroom & Kitchen Fittings</a></p>
+                            </div>
+                            <div class="col-md-2">
+                                <p><a><b> Home Decor </b></a></p>
+                                <p><a> Paintings </a></p>
+                                <p><a> Clocks </a></p>
+                                <p><a>Wall Shelves </a></p>
+                                <p><a>Stickers</a></p>
+                                <p><a> Showpieces & Figurines </a></p>
+                                <p><a><b>Home Lighting</b></a></p>
+
+                                <p><a> Bulbs </a></p>
+
+                                <p><a>Smart Home Automation</a></p>
+                                <p><a> Wall Lamp </a></p>
+                                <p><a> Table Lamp</a></p>
+                                <p><a>Ceiling Lamp</a></p>
+                                <p><a> Emergency Lights </a></p>
+                                <p><a><b>Festive Decor & Gifts</b></a></p>
+                                <p><a><b> Pet Supplies </b></a></p>
+                                <p><a>Dogs</a></p>
+                                <p><a>Cats</a></p>
+                                <p><a>Fish & Aquatics</a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <p><a><b> Durability Certified Furniture</b></a></p>
+                                <p><a> <b>Featured</b></a></p>
+                                <p><a><b>Rakhi & Rakhi Gifts</b></a></p>
+                                <p><a> Mugs Store </a></p>
+                                <p><a><b>Gardening Store</b></a></p>
+                                <p><a>Stainless Steel Store</a></p>
+                                <p><a>Milton</a></p>
+                                <p><a>Bombay Dyeing</p>
+                                <p><a>home</a></p>
+                                <p><a>Bosch</a></p>
+                                <p><a>HomeTown</a></p>
+                                <p><a>Ajanta</a></p>
+                                <p><a>Spaces by Welspun</a></p>
+                                <p><a>Prestige</a></p>
+                                <p><a><b>Perfect Home Store </b></a></p>
+                            </div>
+                        </div>
+
+                    </ul>
+                </li>
+                <li class="dropdown mega-dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <b> Sports, Books & More </b><span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu mega-dropdown-menu blk-txt">
+                        <div class="row">
+                            <div class="col-md-2">
+                                <p><a><b>Sports</b></a></p>
+                                <p><a>Cricket </a></p>
+                                <p><a>Badminton</a></p>
+                                <p><a>Cycling</a></p>
+                                <p><a>Football</a></p>
+                                <p><a>Skating</a></p>
+                                <p><a>Camping & Hiking</a></p>
+                                <p><a>Swimming</a></p>
+                                <p><a><b>Exercise Fitness</b></a></p>
+                                <p><a>Body Suits</a></p>
+                                <p><a>Polos & T-shirts</a></p>
+                                <p><a>Baby Girl-Clothing</a></p>
+                                <p><a>Cardio Equipment</a></p>
+                                <p><a>Dumbbells</a></p>
+                                <p><a>Ab Exercisers</a></p>
+                                <p><a>Shakers & Sippers</a></p>
+                                <p><a>Yoga Mat</a></p>
+                                <p><a>Gym Gloves</a></p>
+
+                            </div>
+                            <div class="col-md-3">
+                                <p><a><b>Food Essentials</b></a>
+                                <p><a>Nuts & Dry Fruits </a></p>
+                                <p><a>Tea, Coffee and Beverages </a></p>
+                                <p><a>Chocolates </a></p>
+                                <p><a>Snacks Corner </a></p>
+                                <p><a>Gifting Combos </a></p>
+                                <p><a>Sweet Store </a></p>
+                                <p><a>Jams,Spreads & Honey </a></p>
+                                <p><a>Breakfast Items </a></p>
+                                <p><a><b>Health & Nutrition</b></a>
+                                <p><a>All Supplements </a></p>
+                                <p><a>Protein Supplements </a></p>
+                                <p><a>Vitamin Supplements </a></p>
+                                <p><a>Health Drinks </a></p>
+                                <p><a>Ayurvedic Supplements </a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <p><a><b>Books</b></a>
+                                <p><a>Entrance Exams</a></p>
+                                <p><a>Academics</a></p>
+                                <p><a>Literature & Fiction </a></p>
+                                <p><a>Non Fiction </a></p>
+                                <p><a>Young Readers </a></p>
+                                <p><a>Self-Help </a></p>
+                                <p><a>Business </a></p>
+                                <p><a>Preorders </a></p>
+                                <p><a>Indian Languages </a></p>
+                                <p><a><b>Stationary</b></a>
+                                <p><a>Pens </a></p>
+                                <p><a>Diaries </a></p>
+                                <p><a>Card Holders </a></p>
+                                <p><a>Desk Organizers </a></p>
+                                <p><a>Calculators</a></p>
+                                <p><a>Key Chains</a></p>
+                            </div>
+                            <div class="col-md-3">
+                                <p><a><b>Auto Accessories</b></a>
+                                <p><a>Car & Bike Accessories</a></p>
+                                <p><a>Helmets & Riding Gears</a></p>
+                                <p><a>Car Electronics & Appliances </a></p>
+                                <p><a><b>Industrial & Scientific Tools</b></a>
+                                <p><a>Industrial Measurement Devices </a></p>
+                                <p><a>Industrial Testing Devices </a></p>
+                                <p><a>Lab & Scientific Products</a></p>
+                                <p><a>Packaging & Shipping Products </a></p>
+                                <p><a>Safety Products</a></p>
+                                <p><a><b>Medical Supplies</b></a>
+                                <p><a>Pregnancy & Fertility Kits </a></p>
+                                <p><a>Hot Water Bags</a></p>
+</div>
+                        </div>
+                    </ul>
+                </li>
+             
+                <li>
+                    <a href=""> <i class="glyphicon glyphicon-shopping-cart"></i><b> OfferZone</b></a> 
+</li>
+        </div>
+
+        </div>
+</nav>
+
+
+<div ui-view="">
+
+</div>
+
+<br />
+<br />
+<div class="copy-right">
+    <div class="container text-center">
+
+
+        <p>
+            2019 Flipkart @Adeal Solutions. All rights reserved
+        </p>
+
+    </div>
+</div>

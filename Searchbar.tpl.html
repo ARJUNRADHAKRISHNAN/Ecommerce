@@ -1,0 +1,46 @@
+﻿
+<html>
+<body>
+    <div class="container containercus">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="row text-center">
+                        <div class="col-md-3" ng-repeat="i in Keywords">
+                            <div class="polaroid">
+                                <img src="{{basePath}}{{i.Image}}" class=" w-50" />
+                                <p><a><b>Name : {{i.Name}}</b></a></p>
+                                <p> Price : {{i.Price}}</p>
+                                <p> Category : {{i.Category.Name}}</p>
+                                <p> Subcategory : {{i.Subcategory.Name}}</p>
+                                <p>Brand : {{i.Brand.Name}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-3" ng-repeat="g in Items">
+                        <div class="polaroid">
+                            <img src="{{basePath}}{{g.Image}}" style="width:30%;height:6vw;" />
+                            <br />
+                            <br />
+                            <p><a><b>Name : {{g.Name}}</b></a></p>
+                            <p><a><b>Brand : {{g.Brand.Name}}</b></a></p>
+                            <p><a><b>Category : {{g.Category.Name}}</b></a></p>
+                            <p><a><b>Subcategory : {{g.Subcategory.Name}}</b></a></p>
+                            <p><a><b>Price : {{g.Price}}</b></a></p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+

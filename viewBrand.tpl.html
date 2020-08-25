@@ -1,0 +1,65 @@
+﻿
+<div class="container containercus">
+    <br />
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h3>Filter Products</h3>
+                    <hr />
+
+                    <p><b>Brands</b></p>
+                    <div ng-repeat="B in Brands">
+                        <input type="checkbox" /> {{B.Name}}
+                    </div>
+
+                    <div data-role="page">
+                        <div data-role="header">
+                            <h3>Price</h3>
+                        </div>
+
+                        <div data-role="main" class="ui-content">
+                            <form method="post" action="/action_page_post.php">
+                                <div data-role="rangeslider">
+                                    <label for="price-min">Min:</label>
+                                    <input type="text" name="Min Price" value=""><br>
+
+                                    <label for="price-max">Max:</label>
+                                    <input type="text" name="Max Price" value=""><br>
+                                </div>
+                                <input type="submit" data-inline="true" value="Submit">
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="row text-center">
+                            <div class="col-md-3" ng-repeat="b in Items">
+                                <div class="polaroid">
+                                    <img src="{{basePath}}{{b.Image}}" height="150" width="150" />
+                                    <br />
+                                    <br />
+                                    <p><a><b>Name : {{b.Name}}</b></a></p>
+                                    <p><a><b> Price : {{b.Price}}}</b></a></p>
+                                    <p> Category : {{b.Category.Name}}</p>
+                                    <p> Subcategory : {{b.Subcategory.Name}}</p>
+                                    <p>Brand : {{b.Brand.Name}}</p>
+                                    <br />
+                                    <br />
+                                </div>
+                            </div>
+                            <br />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

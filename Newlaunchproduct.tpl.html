@@ -1,0 +1,30 @@
+﻿<nav class="navbar navbar-default">
+    <div class="container">
+        <ul class="nav navbar-nav">
+            <li class="dropdown mega-dropdown">
+                <div class="row">
+                    <div class="row">
+
+                        <div class="col-md-4">
+                            <label>Item </label>
+                            <select class="form-control" ng-options="t.Id as t.Name for t in Items" ng-model="Newlaunchproduct.ItemId"></select>
+                        </div>
+                        <div class="col-md-4">
+                            <label>Newlaunch</label>
+                            <select class="form-control" ng-options="t.Id as t.Name for t in Newlaunchs" ng-model="Newlaunchproduct.NewlaunchId"></select>
+                        </div>
+                        <div class="col-md-2">
+                            <br />
+                            <button class="btn btn-default" ng-click="AddNewlaunchproduct()">Add Newlaunchproduct</button>
+                        </div>
+                    </div>
+                 
+                    <div class="">
+                        <p>{{ErrorText}}</p>
+                    </div>
+                    <div kendo-grid="NewlaunchproductSource" k-options="NewlaunchproductGridOptions" id="Newlaunchproduct-master-grid"></div>
+                </div>
+</li>
+</ul>
+</div>
+</nav>

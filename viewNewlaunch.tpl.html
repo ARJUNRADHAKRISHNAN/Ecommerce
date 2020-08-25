@@ -1,0 +1,37 @@
+﻿<div class="container containercus">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <div class="row">
+                <div class="col-md-3">
+
+                    <img src="{{basePath}}{{Newlaunchs.Image}}" style="width:80%;height:15vw;" />
+                </div>
+                <div class="col-md-2">
+                    <p><a><b>Name : {{Newlaunchs.Name}}</b></a></p>
+                    <div class="text-center">
+                        <button class="btn-btn-default">Coming Soon..</button>
+                    </div>
+                </div>
+              
+
+            </div>
+        </div>
+        <br />
+        <br />
+        <p><a><h3>Related Products : </h3></a></p>
+        <div class="row text-center">
+            <div class="col-md-3" ng-repeat="g in popularItems">
+                <div class="polaroid">
+                    <img src="{{basePath}}{{g.Item.Image}}" class="adminimg" height="150" width="150" />
+                    <br />
+                    <br />
+                    <p><a><b>Item : {{g.Item.Name}}</b></a></p>
+                    <p><a><b>Newlaunch : {{g.Newlaunch.Name}}</b></a></p>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+

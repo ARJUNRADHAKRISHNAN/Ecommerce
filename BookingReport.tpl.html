@@ -1,0 +1,53 @@
+﻿<script>
+    var d = new Date();
+    document.getElementById("Ray").innerHTML = d;</script>
+<div class="row">
+    <div class="col-md-3">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h3>Booking Reports</h3>
+                <hr />
+                <p><b>Categories</b></p>
+                <div ng-repeat="c in Categories">
+                    <input type="checkbox" ng-model="c.IsSelected" /> {{c.Name}}
+                </div>
+                <hr />
+                <p><b>Brands</b></p>
+                <div ng-repeat="B in Brands">
+                    <input type="checkbox" ng-model="B.IsSelected" /> {{B.Name}}
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-md-2 text-danger">
+                            <h3> From: </h3><input type="date" name="From" ng-model="Filter.Fromdate">
+                        </div>
+
+
+                        <div class="col-md-2 text-danger">
+                            <h3>To: </h3><input type="date" name="To" ng-model="Filter.Todate">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2">
+                            <button class="btn btn-primary" ng-click="GetReport()">Submit</button>
+                        </div>
+                    </div>
+                    <br />
+
+                    <span>Today Now:</span> <p id="Ray"></p>
+                    <div kendo-grid="BookingreportGrid" k-options="BookingreportGridOptions" id="Bookingreport-master-grid"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+          
+
+

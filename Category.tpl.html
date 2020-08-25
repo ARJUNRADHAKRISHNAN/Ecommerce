@@ -1,0 +1,39 @@
+﻿<div class="container mar-t5">
+    <div class="panel panel-default">
+        <div class="panel-heading">Category</div>
+        <div class="panel-body">
+
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <label>Name</label>
+                    <input type="text" class="form-control" ng-model="Category.Name" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <label>Image</label>
+                <div class="photoDiv row">
+                    <div class="col-xs-5">
+                        <img ng-if="Category.Image == ''" src="images/img.png" class="w-50">
+                        <img ng-if="Category.Image != ''" src="{{basePath}}{{Category.Image}} " class="w-50 ">
+                    </div>
+                    <div class="col-xs-7">
+                        <input type="file" id="fileInput" custom-on-change="handleFileSelect" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <br />
+                <button class="btn btn-default" ng-click="AddCategory()">Add Category</button>
+            </div>
+        </div>
+
+        <div class="">
+            <p>{{ErrorText}}</p>
+        </div>
+        <div kendo-grid="CategorySource" k-options="CategoryGridOptions" id="Category-master-grid"></div>
+
+    </div>
+</div>
